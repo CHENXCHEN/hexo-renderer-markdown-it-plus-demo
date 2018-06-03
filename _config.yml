@@ -100,11 +100,13 @@ markdown_it_plus:
             options:
                 toc: true
                 tocClassName: 'markdownIt-TOC'
-                tocFirstLevel: 1
+                tocFirstLevel: 2
                 tocLastLevel: 6
                 tocCallback:
                 anchorLink: true
-                anchorLinkSymbol: '#'
+                anchorLinkSymbol: ''
+                anchorFirstLevel: 2
+                anchorLastLevel: 6
                 anchorLinkSpace: true
                 anchorLinkSymbolClassName:
                 anchorLinkBefore: true
